@@ -1,0 +1,11 @@
+name: Hello CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [$default-branch]
+  pull_request:
+
+jobs:
+  ci:
+    uses: ../workflows/hello-ci.yml
