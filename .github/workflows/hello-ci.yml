@@ -1,7 +1,7 @@
-name: .NET CI
+name: Hello CI
 
 on:
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
   build:
