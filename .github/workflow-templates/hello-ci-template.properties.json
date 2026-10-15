@@ -3,5 +3,5 @@
   "description": "Says Hello",
   "iconName": "octicon code",
   "categories": ["TypeScript", "CSharp"],
-  "filePatterns": ["*.*"]
+  "filePatterns": [".*"]
 }
